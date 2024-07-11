@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>'How' Questions - 1</title>
+</head>
+<body>
+    <audio id="audioSword" src="assets/sword.wav"></audio>
+    <audio id="clickSound" src="assets/click.wav"></audio>
+    <audio id="wrongSound" src="assets/wrongSound.wav"></audio>
+
+    <div class="heading-container">
+        <div class="heading">
+            Write questions with <span class="Be">Am </span>, <span class="Be">Is </span>, or, <span class="Be">Are</span> .
+
+        </div>
+        <div class="score">Score: <span id="score" class="score-number">0</span></div>
+            <div id="translation" class="translation"></div>
+    </div>
+
+        <!--Question 01-->
+    <div class="questions-container">
+        <div class="item-lines">
+            <h3 class="names">A:</h3><p class="lines"> 
+            <input id="input1" type="text" class="input" autofocus> you a teacher? <button id="btn1T" class="btnTranslation">Translate</button> 
+            </p></div><img id="check1" src="assets/check.png" alt="" class="check">
+    </div>
+    <div class="questions-container-B">
+        <div class="item-lines"><h3 class="names">B:</h3><p class="lines">No, I'm a student.</p></div>
+    </div>
+           <!--Question 02-->
+           <div class="questions-container">
+            <div class="item-lines">
+                <h3 class="names">A:</h3><p class="lines"> 
+                    <input id="input2" type="text" class="input" autofocus>I in room A?<button id="btn2T" class="btnTranslation">Translate</button></p></div><img id="check2" src="assets/check.png" alt="" class="check">
+        </div>
+        <div class="questions-container-B">
+            <div class="item-lines"><h3 class="names">B:</h3><p class="lines">Yes, you are.</p></div>
+        </div>
+      <!--Question 03-->
+      <div class="questions-container">
+        <div class="item-lines">
+            <h3 class="names">A:</h3><p class="lines"> 
+                <input id="input3" type="text" class="input" autofocus> your wife a student, too?<button id="btn3T" class="btnTranslation">Translate</button>
+            </p></div><img id="check3" src="assets/check.png" alt="" class="check">
+    </div>
+    <div class="questions-container-B">
+        <div class="item-lines"><h3 class="names">B:</h3><p class="lines">No, she's not.</p></div>
+    </div>
+        <!--Question 04-->
+        <div class="questions-container">
+            <div class="item-lines">
+                <h3 class="names">A:</h3><p class="lines"><input id="input4" type="text" class="input" autofocus> I an American?
+                    <button id="btn4T" class="btnTranslation">Translate</button>
+                </p></div><img id="check4" src="assets/check.png" alt="" class="check">
+        </div>
+        <div class="questions-container-B">
+            <div class="item-lines"><h3 class="names">B:</h3><p class="lines">No, you're not.</p></div>
+        </div>
+             <!--Question 05-->
+        <div class="questions-container">
+            <div class="item-lines">
+                <h3 class="names">A:</h3><p class="lines"><input id="input5" type="text" class="input" autofocus> you Brazilian?
+                    <button id="btn5T" class="btnTranslation">Translate</button>
+                </p></div><img id="check5" src="assets/check.png" alt="" class="check">
+        </div>
+        <div class="questions-container-B">
+            <div class="item-lines"><h3 class="names">B:</h3><p class="lines">Yes, I am!</p></div>
+        </div>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>

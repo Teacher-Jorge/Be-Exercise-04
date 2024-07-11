@@ -1,0 +1,143 @@
+@font-face {
+    font-family: kanit;
+    src: url(./fonts/Kanit-SemiBoldItalic.ttf);
+    font-family: bangers;
+    src: url(./fonts/Bangers-Regular.ttf);
+}
+@font-face {
+    font-family: kanit;
+    src: url(./fonts/Kanit-SemiBoldItalic.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+.heading-container {
+    font-family: kanit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    font-size: 22px;
+    color:rgb(9, 109, 0);
+}
+
+.Be {
+    color: rgb(9, 255, 0);
+    text-shadow: 1px 1px 2px black;
+    font-family: kanit;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    font-family: bangers;
+    margin: 10px;
+}
+
+.score-number {
+    color: rgb(255, 0, 170);
+    text-shadow: 1px 1px 2px black;
+    font-size: 25px;
+    background: 255,255,255;
+    margin-left: 5px;
+    font-family: bangers;
+}
+
+.questions-container {
+    max-width: 400px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  92% 8%;
+    justify-content: start;
+    font-family: kanit;
+    color: rgb(0, 80, 160);
+}
+
+
+.questions-container-B {
+    max-width: 400px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  92% 8%;
+    justify-content: start;
+    font-family: kanit;
+    margin-bottom: 20px;
+    color: rgb(0, 80, 160);
+}
+
+.names {
+    font-family: 'bangers';
+    color:rgb(255, 230, 0);
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.8);
+    margin-right: 10px;
+}
+
+.item-lines {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.input {
+    font-size: 20px;
+    font-family: kanit;
+    color: rgb(0, 0, 0);
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-style: none;
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.input:focus {
+    border-bottom: 1px solid rgb(255, 0, 221);
+}
+
+.check {
+    width: 30px;
+    visibility: hidden;
+}
+
+
+
+.translation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 30px;
+    color:rgb(0, 216, 245);
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.btnTranslation {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: darkcyan;
+    border-radius: 20px;
+    font-family: 'bangers';
+    font-size: 0.6rem;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 5px 1px rgba(0,0,0,0.2)
+}
+
+.btnTranslation:hover {
+    background-color: rgb(255, 228, 248);
+}
