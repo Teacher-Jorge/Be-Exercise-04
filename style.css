@@ -17,6 +17,8 @@
 
 .questions-container {
     max-width: 380px;
+    height: 1600px;
+    border: 1px solid;
 }
 
 .heading-container {
