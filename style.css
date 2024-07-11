@@ -22,10 +22,12 @@
 
 .heading-container {
     max-width: 380px;
+    height: 50px;
     font-family: kanit;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background:aliceblue;
     font-size: 22px;
     color:rgb(0, 117, 185);
