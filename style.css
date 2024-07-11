@@ -133,13 +133,14 @@
 }
 
 .btnTranslation {
-    width: 40px;
+    width: 45px;
     height: 30px;
     margin-left: 10px;
     background-color: #fff;
+    color: rgb(0, 128, 133);
     border-radius: 10px;
     font-family: 'bangers';
-    font-size: 0.6rem;
+    font-size: 11px;
     border-style: none;
     box-shadow: inset 2px 2px 5px 1px rgba(0,0,0,0.2)
 }
