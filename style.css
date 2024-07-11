@@ -15,11 +15,6 @@
     margin: 0 auto;
 }
 
-.questions-container {
-    max-width: 380px;
-    background-color: aliceblue;
-}
-
 .heading-container {
     max-width: 380px;
     height: 50px;
@@ -40,6 +35,12 @@
     top: 0;
     display: flex;
     background-color: rgb(0, 81, 161);
+}
+
+.questions-container {
+    max-width: 380px;
+    height: 1000px;
+    background-color: aliceblue;
 }
 
 .Be {
